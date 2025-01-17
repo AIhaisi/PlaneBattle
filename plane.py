@@ -14,14 +14,14 @@ RED = (255, 0, 0)
 GREEN = (0, 255, 0)
 
 # 加载资源
-background = pygame.image.load("background.jpg")
-player_img = pygame.image.load("player.png")
-enemy_img = pygame.image.load("enemy.png")
-enemy_hit_img = pygame.image.load("enemy_hit.png")
-explode_imgs = [pygame.image.load(f"explode{i}.png") for i in range(1, 12)]
+background = pygame.image.load("Assets/background.jpg")
+player_img = pygame.image.load("Assets/player.png")
+enemy_img = pygame.image.load("Assets/enemy.png")
+enemy_hit_img = pygame.image.load("Assets/enemy_hit.png")
+explode_imgs = [pygame.image.load(f"Assets/explode{i}.png") for i in range(1, 12)]
 
 # 加载中文字体
-font_path = "SimHei.ttf"
+font_path = "Assets/SimHei.ttf"
 font = pygame.font.Font(font_path, 36)
 large_font = pygame.font.Font(font_path, 74)
 
